@@ -12,10 +12,15 @@ html, body{
     background-color: black;
 }
 
+body{
+    background: url(..//fundo/fundomadeira.jpg) no-repeat ;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
 main{
     height: 100vh;
     position: relative;
-    background-color: green;
 }
 
 section#tel{
@@ -23,10 +28,10 @@ section#tel{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 600px;
-    width: 300px;
+    height: 599px;
+    width: 290px;
 
-    background: blue url(../iframe/celular_1.png) no-repeat;
+    background: url(../iframe/celular_1.png) no-repeat;
     align-items: start;
     background-position-y: center;
 }
