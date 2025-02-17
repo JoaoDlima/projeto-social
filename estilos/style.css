@@ -13,7 +13,7 @@ html, body{
 }
 
 body{
-    background: url(..//fundo/fundomadeira.jpg) no-repeat ;
+    background: url(../fundo/fundomadeira.jpg) no-repeat ;
     background-size: contain;
     background-attachment: fixed;
 }
@@ -23,7 +23,7 @@ main{
     position: relative;
 }
 
-section#tel{
+section#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,4 +34,12 @@ section#tel{
     background: url(../iframe/celular_1.png) no-repeat;
     align-items: start;
     background-position-y: center;
+}
+
+iframe#tela{
+    position: relative;
+    top: 86px;
+    left: 30px;
+    width: 243px;
+    height: 427px;
 }
